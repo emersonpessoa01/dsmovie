@@ -1,4 +1,4 @@
-export const BASE_URL = process.env.REACT_APP_BACKEND_URL?? "http://localhst:8080"
+export const BASE_URL = process.env.REACT_APP_BACKEND_URL?? "http://localhost:8080"
 /*?? - SIGNIFICA CASO NÃO A VARIÁVEL DE AMBITE NÃO SEJA DEFINIDA, SERÁ UTLIZADO O 
 O LOCALHOST
 */
