@@ -20,11 +20,8 @@ body {
   background-color: #e5e5e5;
 }
 
-a {
-  text-decoration: none;
-  color: unset;
-}
-a:hover {
+
+:is(a, a:hover){
   text-decoration: none;
   color: unset;
 }
