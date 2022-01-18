@@ -14,7 +14,7 @@ function FormCard({ movieId }: Props) {
     axios.get(`${BASE_URL}/movies/${movieId}`).then((response) => {
       setMovie(response.data);
     });
-  }, []);
+  }, [movieId]);
 
   return (
     <div className="dsmovie-form-container">
